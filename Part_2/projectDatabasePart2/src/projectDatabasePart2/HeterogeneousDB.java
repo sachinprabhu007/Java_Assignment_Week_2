@@ -16,7 +16,7 @@ public class HeterogeneousDB extends DistributedDB {
 		public double getCostFactor() {
 			
 			/*
-			 * Although this method is returning a constant, it should not be static to
+//			 * Although this method is returning a constant, it should not be static to
 			 * ensure the cost factor for this class is returned of when called on an object
 			 * of this class.
 			 */

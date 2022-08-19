@@ -14,7 +14,7 @@ public abstract class DB implements Comparable<Object> {
 	public DB(String name, double base_cost, double db_Storage) {
 		super();
 		this.name = name;
-		this.base_cost = base_cost;
+//		this.base_cost = base_cost;
 		Db_Storage = db_Storage;
 		count = count + 1;
 	}

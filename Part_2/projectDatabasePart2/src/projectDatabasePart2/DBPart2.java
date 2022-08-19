@@ -7,8 +7,7 @@ public class DBPart2 {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		DBList dbList =  new DBList();
-		File currentDirectory = new File("dbFile.csv");
-		//dbList.readFile("dbFile.csv");
+		dbList.readFile("src/data_folder/dbFile1.csv");
 		dbList.generateReport();
 		dbList.generateReportByName();
 		dbList.generateReportByMonthlyCost();
